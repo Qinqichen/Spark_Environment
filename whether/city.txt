@@ -1,0 +1,11 @@
+晋中 jinzhong
+太原 taiyuan
+大同 datong
+阳泉 yangquan
+长治 changzhi
+临汾 linfen
+晋城 jincheng
+朔州 shuozhou
+运城 yuncheng
+忻州 xinzhou
+吕梁 lvliang
