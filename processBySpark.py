@@ -76,7 +76,7 @@ def concatInsertSql(city_pinyin , city_chinese,data):
 
 def saveToMysql(city_pinyin , city_chinese,data):
 
-    db = getMySqlConnect("101.37.145.103", "test", "test", "hadoop_kongqizhiliang")
+    db = getMySqlConnect("localhost", "test", "test", "hadoop_kongqizhiliang")
 
     cursor = db.cursor()
     cursor.execute("SET NAMES utf8")
