@@ -11,7 +11,7 @@ i = ['太原','大同','吕梁','忻州','朔州','阳泉','晋中','临汾','�
 for a in range(len(i)):
     #print(i[a])
     # 打开数据库连接
-    db = MySQLdb.connect("101.37.145.103", "test", "test", "hadoop_kongqizhiliang")
+    db = MySQLdb.connect("localhost", "test", "test", "hadoop_kongqizhiliang")
     # 使用cursor()方法获取操作游标
     cursor = db.cursor()
     # 使用execute方法执行SQL语句
@@ -141,7 +141,7 @@ print("散点图输出成功")
 
 #太原2021年空气质量分析饼状图
 # 打开数据库连接
-db = MySQLdb.connect("101.37.145.103", "test", "test", "hadoop_kongqizhiliang")
+db = MySQLdb.connect("localhost", "test", "test", "hadoop_kongqizhiliang")
 
 # 使用cursor()方法获取操作游标
 cursor = db.cursor()
